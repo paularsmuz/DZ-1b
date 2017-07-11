@@ -8,6 +8,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -98,13 +99,43 @@
                     <view key="view" contentMode="scaleToFill" id="WPu-WS-5p1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ckF-jf-5eU" userLabel="BottView">
+                                <rect key="frame" x="0.0" y="309" width="375" height="309"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bWf-ax-4m3" userLabel="LeftView">
+                                <rect key="frame" x="0.0" y="0.0" width="250" height="309"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g8N-cJ-vfe" userLabel="RightView">
+                                <rect key="frame" x="250" y="0.0" width="125" height="309"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="g8N-cJ-vfe" firstAttribute="top" secondItem="bWf-ax-4m3" secondAttribute="top" id="8Mc-xK-aPT"/>
+                            <constraint firstItem="ckF-jf-5eU" firstAttribute="top" secondItem="bWf-ax-4m3" secondAttribute="bottom" id="F3U-eS-wLQ"/>
+                            <constraint firstItem="g8N-cJ-vfe" firstAttribute="leading" secondItem="bWf-ax-4m3" secondAttribute="trailing" id="PQa-W0-Xod"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ckF-jf-5eU" secondAttribute="trailing" constant="-16" id="Q8k-Pd-gmN"/>
+                            <constraint firstItem="G9m-Wx-lS5" firstAttribute="top" secondItem="ckF-jf-5eU" secondAttribute="bottom" id="SPp-8h-59O"/>
+                            <constraint firstItem="bWf-ax-4m3" firstAttribute="top" secondItem="VaG-Gt-htU" secondAttribute="bottom" constant="-20" id="WVY-qI-vam"/>
+                            <constraint firstItem="g8N-cJ-vfe" firstAttribute="trailing" secondItem="ckF-jf-5eU" secondAttribute="trailing" id="Y5H-ET-1N3"/>
+                            <constraint firstItem="bWf-ax-4m3" firstAttribute="height" secondItem="ckF-jf-5eU" secondAttribute="height" id="YzJ-BF-abu"/>
+                            <constraint firstItem="g8N-cJ-vfe" firstAttribute="bottom" secondItem="bWf-ax-4m3" secondAttribute="bottom" id="e8C-qo-VT4"/>
+                            <constraint firstItem="bWf-ax-4m3" firstAttribute="leading" secondItem="WPu-WS-5p1" secondAttribute="leadingMargin" constant="-16" id="kxt-9p-7ti"/>
+                            <constraint firstItem="ckF-jf-5eU" firstAttribute="height" secondItem="WPu-WS-5p1" secondAttribute="height" multiplier="0.5" id="mbH-GD-Wg5"/>
+                            <constraint firstItem="ckF-jf-5eU" firstAttribute="top" secondItem="g8N-cJ-vfe" secondAttribute="bottom" id="qVq-wA-pkX"/>
+                            <constraint firstItem="bWf-ax-4m3" firstAttribute="width" secondItem="g8N-cJ-vfe" secondAttribute="width" multiplier="2" id="sID-J0-wEq"/>
+                            <constraint firstItem="ckF-jf-5eU" firstAttribute="leading" secondItem="WPu-WS-5p1" secondAttribute="leadingMargin" constant="-16" id="v2h-lB-xnr"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="Nz9-Jp-MRB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kQO-oH-NlJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="142" y="-1708"/>
+            <point key="canvasLocation" x="45.600000000000001" y="-1849.0254872563719"/>
         </scene>
         <!--Задание 1-->
         <scene sceneID="ure-kh-Oli">
