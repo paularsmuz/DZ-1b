@@ -63,15 +63,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="66q-XH-sk9" firstAttribute="centerX" secondItem="aq7-Zh-vf4" secondAttribute="centerX" id="262-AS-0eC"/>
                             <constraint firstItem="5mJ-74-EKa" firstAttribute="top" secondItem="VON-4W-JoV" secondAttribute="bottom" constant="18" id="4Zt-qX-Ri9"/>
-                            <constraint firstItem="5mJ-74-EKa" firstAttribute="width" secondItem="aq7-Zh-vf4" secondAttribute="height" multiplier="309:667" id="6a7-JS-DFK"/>
-                            <constraint firstItem="66q-XH-sk9" firstAttribute="leading" secondItem="aq7-Zh-vf4" secondAttribute="leadingMargin" constant="138" id="9KA-rr-9kS"/>
                             <constraint firstItem="UBs-Qu-Jtc" firstAttribute="height" secondItem="66q-XH-sk9" secondAttribute="height" id="9ci-wW-1x6"/>
                             <constraint firstItem="xts-62-u8e" firstAttribute="top" secondItem="66q-XH-sk9" secondAttribute="bottom" constant="62" id="H4V-iy-ESt"/>
                             <constraint firstItem="UBs-Qu-Jtc" firstAttribute="width" secondItem="aq7-Zh-vf4" secondAttribute="height" multiplier="68:667" id="JN0-Ge-jCZ"/>
                             <constraint firstItem="UBs-Qu-Jtc" firstAttribute="width" secondItem="66q-XH-sk9" secondAttribute="width" id="Kx1-cK-7tf"/>
                             <constraint firstItem="5mJ-74-EKa" firstAttribute="leading" secondItem="aq7-Zh-vf4" secondAttribute="leadingMargin" constant="17" id="LI3-wR-TG9"/>
                             <constraint firstItem="66q-XH-sk9" firstAttribute="top" secondItem="Tfy-bI-QjN" secondAttribute="bottom" constant="220" id="LlY-0h-JMp"/>
+                            <constraint firstItem="5mJ-74-EKa" firstAttribute="centerX" secondItem="aq7-Zh-vf4" secondAttribute="centerX" id="M3k-22-HyA"/>
                             <constraint firstAttribute="trailingMargin" secondItem="66q-XH-sk9" secondAttribute="trailing" constant="137" id="N8U-gj-wzn"/>
                             <constraint firstItem="UBs-Qu-Jtc" firstAttribute="top" secondItem="5mJ-74-EKa" secondAttribute="bottom" constant="88" id="Nvx-Ss-6Gs"/>
                             <constraint firstItem="Tfy-bI-QjN" firstAttribute="leading" secondItem="aq7-Zh-vf4" secondAttribute="leadingMargin" constant="27" id="RfV-X2-Z9O"/>
