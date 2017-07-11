@@ -42,7 +42,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Текст в Label, который переносится на несколько строк" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tfy-bI-QjN">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Текст в Label, который переносится на несколько строк" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tfy-bI-QjN">
                                 <rect key="frame" x="43" y="214" width="223" height="61"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -52,11 +52,11 @@
                                 <rect key="frame" x="154" y="495" width="68" height="61"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UBs-Qu-Jtc" userLabel="View2">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UBs-Qu-Jtc" userLabel="View2">
                                 <rect key="frame" x="274" y="214" width="68" height="61"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5mJ-74-EKa" userLabel="View1">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5mJ-74-EKa" userLabel="View1">
                                 <rect key="frame" x="33" y="38" width="309" height="88"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
@@ -70,7 +70,6 @@
                             <constraint firstItem="UBs-Qu-Jtc" firstAttribute="width" secondItem="aq7-Zh-vf4" secondAttribute="height" multiplier="68:667" id="JN0-Ge-jCZ"/>
                             <constraint firstItem="UBs-Qu-Jtc" firstAttribute="width" secondItem="66q-XH-sk9" secondAttribute="width" id="Kx1-cK-7tf"/>
                             <constraint firstItem="5mJ-74-EKa" firstAttribute="leading" secondItem="aq7-Zh-vf4" secondAttribute="leadingMargin" constant="17" id="LI3-wR-TG9"/>
-                            <constraint firstItem="66q-XH-sk9" firstAttribute="top" secondItem="Tfy-bI-QjN" secondAttribute="bottom" constant="220" id="LlY-0h-JMp"/>
                             <constraint firstItem="5mJ-74-EKa" firstAttribute="centerX" secondItem="aq7-Zh-vf4" secondAttribute="centerX" id="M3k-22-HyA"/>
                             <constraint firstAttribute="trailingMargin" secondItem="66q-XH-sk9" secondAttribute="trailing" constant="137" id="N8U-gj-wzn"/>
                             <constraint firstItem="UBs-Qu-Jtc" firstAttribute="top" secondItem="5mJ-74-EKa" secondAttribute="bottom" constant="88" id="Nvx-Ss-6Gs"/>
