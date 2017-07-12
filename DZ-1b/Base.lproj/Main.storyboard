@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="s6F-PB-oHM">
-                                <rect key="frame" x="16" y="91" width="288" height="420"/>
+                                <rect key="frame" x="16" y="91" width="288" height="378"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -52,14 +52,23 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2G2-87-ySq">
+                                <rect key="frame" x="16" y="481" width="288" height="28"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ToJ-xw-BX2" firstAttribute="width" secondItem="A5S-mu-AUa" secondAttribute="width" id="7Ja-0c-muI"/>
                             <constraint firstItem="NIh-J1-3pf" firstAttribute="top" secondItem="LwV-Ah-iNE" secondAttribute="bottom" id="7ac-O0-V1t"/>
                             <constraint firstAttribute="trailingMargin" secondItem="s6F-PB-oHM" secondAttribute="trailing" id="9ZF-xP-sxe"/>
+                            <constraint firstItem="2G2-87-ySq" firstAttribute="top" secondItem="s6F-PB-oHM" secondAttribute="bottom" constant="12" id="Euw-ne-oAf"/>
                             <constraint firstItem="ToJ-xw-BX2" firstAttribute="top" secondItem="NIh-J1-3pf" secondAttribute="bottom" constant="10" id="L7j-6E-pWV"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="2G2-87-ySq" secondAttribute="leading" id="LgB-8U-KJa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2G2-87-ySq" secondAttribute="trailing" id="PXF-RB-8vF"/>
                             <constraint firstItem="A5S-mu-AUa" firstAttribute="top" secondItem="NIh-J1-3pf" secondAttribute="bottom" constant="10" id="R4l-uc-rJG"/>
+                            <constraint firstItem="aNv-1n-ZIH" firstAttribute="top" secondItem="2G2-87-ySq" secondAttribute="bottom" constant="10" id="Tnl-yC-hLS"/>
                             <constraint firstItem="s6F-PB-oHM" firstAttribute="leading" secondItem="k1S-ef-V5a" secondAttribute="leadingMargin" id="Vv8-u6-Erh"/>
                             <constraint firstAttribute="trailingMargin" secondItem="A5S-mu-AUa" secondAttribute="trailing" id="X5A-vF-YR4"/>
                             <constraint firstAttribute="leadingMargin" secondItem="ToJ-xw-BX2" secondAttribute="leading" id="gDs-73-89L"/>
@@ -67,7 +76,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="NIh-J1-3pf" secondAttribute="trailing" id="nVa-po-kzK"/>
                             <constraint firstAttribute="leadingMargin" secondItem="NIh-J1-3pf" secondAttribute="leading" id="taP-Ud-kEb"/>
                             <constraint firstItem="ToJ-xw-BX2" firstAttribute="height" secondItem="A5S-mu-AUa" secondAttribute="height" id="u0k-1r-fzI"/>
-                            <constraint firstItem="aNv-1n-ZIH" firstAttribute="top" secondItem="s6F-PB-oHM" secondAttribute="bottom" constant="8" id="uaB-oX-n6d"/>
+                            <constraint firstItem="aNv-1n-ZIH" firstAttribute="top" secondItem="s6F-PB-oHM" secondAttribute="bottom" constant="50" id="uaB-oX-n6d"/>
                             <constraint firstItem="s6F-PB-oHM" firstAttribute="top" secondItem="A5S-mu-AUa" secondAttribute="bottom" constant="10" id="y1P-bn-LYv"/>
                             <constraint firstItem="A5S-mu-AUa" firstAttribute="leading" secondItem="ToJ-xw-BX2" secondAttribute="trailing" constant="20" id="ycb-ne-qXM"/>
                         </constraints>
